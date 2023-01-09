@@ -1,4 +1,21 @@
 {
   "singleQuote": true,
-  "semi": false
+  "semi": false,
+  "singleAttributePerLine": true,
+  "importOrder": [
+    "^vue(.*)$",
+    "boot",
+    "^pinia(.*)$",
+    "types",
+    "routes",
+    "stores",
+    "^quasar(.*)$",
+    "utils",
+    "common",
+    "module",
+    "components",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
