@@ -24,8 +24,9 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useCounterStore } from '@/stores/counter'
+
 import Counter from '@/components/counter/Counter.vue'
 
 const storeCounter = useCounterStore()
